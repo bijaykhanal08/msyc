@@ -1,0 +1,39 @@
+.memmid h1{
+  text-align: center;
+  background: red;
+  padding: 5px;
+  color: #fff;
+}
+.gridd{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2,1fr);
+}
+.gridd .card{
+  margin: 3px;
+  border-radius: 5px;
+
+  padding: 8px;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gridd .card:nth-child(even){
+  background: coral;
+}
+.card img{
+  width: 90%;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+.gridd .card a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  background: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
